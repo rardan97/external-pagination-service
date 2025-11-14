@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: external-pagination-service
+
+external-api:
+  url: https://dummyjson.com/users?limit=208&skip=0
+
+cache:
+  users:
+    expire-after-write-minutes: 10
+    maximum-size: 1
+
+springdoc:
+  api-docs:
+    path: /api/users/v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+
+logging:
+  level:
+    root: INFO
+    com.blackcode.external_pagination_service: DEBUG
