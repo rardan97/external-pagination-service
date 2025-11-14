@@ -44,7 +44,7 @@ or
 https://dummyjson.com/users?limit=0&skip=0
 ```
 
-<p>
+<p align="center">
   <img src="dokumentasi/total-data-external.jpg" alt="Login" width="300"/>
 </p>
 
