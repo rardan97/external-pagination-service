@@ -274,7 +274,7 @@ Log :
 
 Result :
 
-Scenario                       | From Api (Response Time) | Cache (Response Time)
+Case                       | From Api (Response Time) | Cache (Response Time)
 ------------------------------ |--------------------------|--------
 GET /api/users?size=208        | 2.30 s                   | 4.49 ms
 GET /api/users?page=2&size=10  | 2.06 s                   | 2.95 ms
