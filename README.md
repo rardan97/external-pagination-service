@@ -55,7 +55,7 @@ https://dummyjson.com/users?limit=0&skip=0
 - maximum-size: 1
 ```
 Explanation:
-- expire-after-write-minutes: Cache data expires after 1 minute
+- expire-after-write-minutes: Cache data expires after 10 minute
 - maximum-size = 1: Only stores 1 key
 
 
